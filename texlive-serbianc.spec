@@ -58,6 +58,7 @@ Cyrillic, in babel.
 %doc %{_texmfdistdir}/source/generic/serbianc/serbianc.dtx
 %doc %{_texmfdistdir}/source/generic/serbianc/serbianc.ins
 %doc %{_texmfdistdir}/source/generic/serbianc/serbianc.patch
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +69,5 @@ Cyrillic, in babel.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
