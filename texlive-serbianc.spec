@@ -9,7 +9,7 @@ Version:	2.2
 Release:	13
 Summary:	Babel module to support Serbian Cyrillic
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/serbianc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/babel-contrib/serbianc
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/serbianc.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/serbianc.doc.tar.xz
